@@ -101,12 +101,12 @@
       <p id="u3678-26">Sunday &#45; closed</p>
       <p>&nbsp;</p>
      </div>
-     <form class="form-grp clearfix grpelem" id="widgetu3683" method="post" enctype="multipart/form-data" action=/"><!-- none box -->
+     <form class="form-grp clearfix grpelem" id="widgetu3683" method="post" enctype="multipart/form-data"><!-- none box -->
       <div class="fld-grp clearfix grpelem" id="widgetu3685" data-required="true"><!-- none box -->
        <label class="fld-label actAsDiv clearfix grpelem" id="u3687-4" for="widgetu3685_input"><!-- content -->
         <span class="actAsPara">name:</span>
        </label>
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u3686-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu3685_input" name="custom_U3685" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu3685_prompt" for="widgetu3685_input"><span class="actAsPara">...</span></label></span>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u3686-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu3685_input" name="Name" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu3685_prompt" for="widgetu3685_input"><span class="actAsPara">...</span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem" id="widgetu3696" data-required="true" data-type="email"><!-- none box -->
        <label class="fld-label actAsDiv clearfix grpelem" id="u3698-4" for="widgetu3696_input"><!-- content -->
@@ -128,8 +128,9 @@
        <label class="fld-label actAsDiv clearfix grpelem" id="u3691-4" for="widgetu3690_input"><!-- content -->
         <span class="actAsPara">message</span>
        </label>
-       <span class="fld-textarea actAsDiv clearfix grpelem" id="u3692-4"><!-- content --><textarea class="wrapped-input" id="widgetu3690_input" name="custom_U3690" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu3690_prompt" for="widgetu3690_input"><span class="actAsPara">...</span></label></span>
+       <span class="fld-textarea actAsDiv clearfix grpelem" id="u3692-4"><!-- content --><textarea class="wrapped-input" id="widgetu3690_input" name="Message" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu3690_prompt" for="widgetu3690_input"><span class="actAsPara">...</span></label></span>
       </div>
+      <input type="text" name="_gotcha" style="display:none"/>
      </form>
     </div>
     <a class="nonblock nontext colelem" id="u3680-4" href="index.html"><!-- rasterized frame --><img id="u3680-4_img" alt="Bespoke Nails &amp; Beauty" width="738" height="112" src="../images/u3680-4.png"/></a>
@@ -183,6 +184,8 @@ Muse.Utils.initWidget('#widgetu3683', function(elem) { new WebPro.Widget.Form(el
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+var action = atob("aHR0cDovL2Zvcm1zcHJlZS5pby9iZXNwb2tlbmFpbHNAZ21haWwuY29t");
+$("#widgetu3683").attr("action", action);
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
 </script>
    </body>
