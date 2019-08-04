@@ -40,31 +40,28 @@
     <div class="browser_width colelem" id="menuu2184-bw">
      <nav class="MenuBar clearfix" id="menuu2184"><!-- vertical box -->
       <div class="MenuItemContainer clearfix colelem100" id="u2192"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2193" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2194-4"><!-- content --><p>HOME</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix" id="u2193" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2194-4"><!-- content --><p>HOME</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix colelem100" id="u2248"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix" id="u2251" href="offers.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2254-4"><!-- content --><p>&nbsp;OFFERS</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2251" href="offers.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2254-4"><!-- content --><p>&nbsp;OFFERS</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix colelem100" id="u2255"><!-- horizontal box -->
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2256" href="prices.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2259-4"><!-- content --><p>PRICES</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix colelem100" id="u4229"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u4232" href="tanning.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u4234-4"><!-- content --><p>TANNING</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u4232" href="packages.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u4234-4"><!-- content --><p>PACKAGES</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix colelem100" id="u2262"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2263" href="packages.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2264-4"><!-- content --><p>PACKAGES</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2263" href="parties.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2264-4"><!-- content --><p>PARTIES</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix colelem100" id="u2269"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2272" href="parties.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2274-4"><!-- content --><p>PARTIES</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2272" href="meet-us.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2274-4"><!-- content --><p>MEET US</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix colelem100" id="u2276"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2277" href="meet-us.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2279-4"><!-- content --><p>MEET US</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2277" href="gallery.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2279-4"><!-- content --><p>GALLERY</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix colelem100" id="u2283"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2286" href="gallery.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2287-4"><!-- content --><p>GALLERY</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix colelem100" id="u2290"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2293" href="contact-us.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2294-4"><!-- content --><p>CONTACT US</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u2286" href="contact-us.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u2287-4"><!-- content --><p>CONTACT US</p></div></a>
       </div>
      </nav>
     </div>
@@ -111,7 +108,8 @@
    $(document).ready(function() { try {
 (function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
 for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),l=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":l=l.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(l);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(l);break;case "js":l.match(/^jquery-[\d\.]+/gi)&&
-typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();(Muse.assets.outOfDate.length||Muse.assets.required.length)&&alert("Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.")})()})();/* body */
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();(Muse.assets.outOfDate.length||Muse.assets.required.length)&&alert("Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.")})()})();
+/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
